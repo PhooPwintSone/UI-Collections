@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_collections/curve_ui/screen/curve_login_ui.dart';
+import 'package:ui_collections/wallet_login_signup/wallet_login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const CurveLoginUi(),
+      home: const WalletLoginScreen(),
     );
   }
 }
